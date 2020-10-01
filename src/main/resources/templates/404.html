@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
+
 <head>
     <meta charset="UTF-8">
     <title>Oooopsss...</title>
     <link th:href="@{/styles/cssandjs/404.css}" rel="stylesheet" />
 </head>
+
 <body>
-<h2>Something went wrong...</h2>
-<!--TODO: -->
-<!--Redirect to login page-->
+    <h2>Something went wrong...</h2>
+    <label th:text="${message}"></label>
 </body>
+<form action="#" th:action="@{/base64}" method="get" >
+    <button type="submit" id="submit_button">Back</button>
+</form>
 </html>
