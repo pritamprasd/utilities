@@ -27,7 +27,7 @@ public class Base64Encoding {
     public static final String PLAIN_TO_BASE64 = "ptob";
     private Logger LOG = LoggerFactory.getLogger(Base64Encoding.class);
 
-    @GetMapping(value = {"/base64"})
+    @GetMapping(value = {"/","/base64"})
     public String index(Model model) {
         model.addAttribute("base64Object", new Base64Object());
         model.addAttribute("conversion", "");
