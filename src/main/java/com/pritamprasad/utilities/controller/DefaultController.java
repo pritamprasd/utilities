@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class DefaultController {
     @GetMapping(value = "/index")
     public String index() {
-        return "index";
+        return "404";
     }
 }
