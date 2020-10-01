@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="ISO-8859-1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link th:href="@{/styles/cssandjs/base64.css}" rel="stylesheet" />
+    <title>Utilies</title>
+</head>
+
+<body>
+    <div>
+        <form action="#" th:action="@{/base64converter}" method="post" th:object="${base64Object}" id="content">
+            <select th:field="*{conversion}">
+                <option th:value="btop">Plain Text -> Base64</option>
+                <option th:value="ptob">Base64 -> Plain Text</option>
+            </select>
+            <textarea type="text" th:field="*{text}"></textarea>
+            <button type="submit" >Convert</button>
+        </form>
+    </div>
+    <script th:src="@{/js/base64.js}" type="text/javascript"></script>
+</body>
+</html>
