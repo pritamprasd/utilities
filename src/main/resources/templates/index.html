@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<script th:src="@{/js/index.js}" type="text/javascript"></script>
+	<link th:href="@{/styles/cssandjs/index.css}" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	<title>Utilies</title>
+</head>
+
+<body>
+	<header id="topbar" hidden>
+		<!-- <nav>
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo left" id="logoid"><i class="material-icons">construction</i></a>
+					<ul id="nav-mobile" class="right">
+						<li><i class="material-icons">help</i></li>
+						<li><i class="material-icons">info</i></li>
+					</ul>
+				</div>
+			</nav> -->
+		Header
+	</header>
+
+	<div class="grid_items">
+		<div class="grid_item card-panel">
+			<details>
+				<summary>Base64 Conversions</summary>
+				<p>A tool to to convert bas64 strings to plain-text and vice-versa.</p>
+			</details>
+			<div id="redirect-button">
+				<a class="btn-floating btn-medium" href="/base64">
+					<i class="material-icons lighten-2">open_in_new</i>
+				</a>
+			</div>
+		</div>
+		<div class="grid_item card-panel">
+			<details>
+				<summary>Rick on</summary>
+				<p>Who cares about the *belch* thing you guys are talking about? The whole point of freezing
+					time is to stop giving a
+					fuck. Put a shirt on your dumb dad and let's get this dumb universe rolling. Let's do this
+					thing.</p>
+			</details>
+			<div id="redirect-button">
+				<a class="btn-floating btn-medium" href="/base64">
+					<i class="material-icons red lighten-2">open_in_new</i>
+				</a>
+			</div>
+		</div>
+		<div class="grid_item card-panel">Summer</div>
+		<div class="grid_item card-panel">Beth Smith</div>
+		<div class="grid_item card-panel">Jerry Smith</div>
+		<div class="grid_item card-panel">Me. Meeseeks</div>
+		<div class="grid_item card-panel">Noob Noob</div>
+	</div>
+
+	<footer>
+		Open sourced with ❤
+		<a href="https://github.com/pritamprasd/utilities"><i class="material-icons lighten-2 right" id="footerGithubLink">code</i></a>
+	</footer>
+
+
+	<!-- Do not touch below -->
+	<script th:src="@{/js/index.js}" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" type="text/javascript"></script>	
+</body>
+
+</html>

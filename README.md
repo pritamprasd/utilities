@@ -8,7 +8,7 @@ Sample UI based app to help dev's with quick operations/conversions without havi
 cd utilities
 mvn clean package && java -jar target\utilities-0.0.1-SNAPSHOT.jar
 ```
-browse to : http://localhost:8080/base64
+browse to : http://localhost:8080/
 
 #### Materials inspired by:
 - https://codepen.io/bertdida/details/xyPKRX
