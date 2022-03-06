@@ -17,3 +17,4 @@ browse to : http://localhost:8080/
 
 ##### Why not just write everything in js?
 Umm.. yeah, that could've been done. But then i wanted to play around with java.  
+Edit: It's here: pritam.dev
